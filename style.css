@@ -114,14 +114,14 @@ hr{
         height: 50px;
     }
 
-    .customer-container h3, h4, p{
+    .customer-container h3, h4, p, .in-details table, tr, td{
         font-size: 0.8em;
     }
 }
 
 @media only screen and (max-width: 600px) {
 
-    .customer-container h3, h4, p{
+    .customer-container h3, h4, p, .in-details table, tr, td{
         font-size: 0.6em;
     }
 
@@ -132,7 +132,7 @@ hr{
 
 @media only screen and (max-width: 500px) {
 
-    .customer-container h3, h4, p{
+    .customer-container h3, h4, p, .in-details table, tr, td{
         font-size: 0.5em;
     }
 
