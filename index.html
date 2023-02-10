@@ -10,9 +10,6 @@
 <body>
     <div class="invoice-container">
         <div class="invoice-header">
-            <div class="logo-container">
-                <img class="logo" src="vkcom-logo-svgrepo-com.svg" alt="logo">
-            </div>
             <div class="company-address">
                 <h1>Veekay Ltd. </h1>
                 <p>
@@ -22,12 +19,25 @@
                     Nigeria.
                 </p>
             </div>
+            <div class="logo-container">
+                <img class="logo" src="vkcom-logo-svgrepo-com.svg" alt="logo">
+            </div>
         </div>
-
+            <hr>
         <div class="customer-container">
             <div>
-                <h2>Billing To</h2>
-                <h3>Annimore</h3>
+                <h3 class="hd-font">Bill To</h3>
+                <h4>Annimore</h4>
+                <p>
+                     29 Lawmarck Estate,<br>
+                    Igando,<br>
+                    Lagos State,<br>
+                    Nigeria.
+                </p>
+            </div>
+            <div>
+                <h3 class="hd-font">Ship To</h3>
+                <h4>Annimore</h4>
                 <p>
                      29 Lawmarck Estate,<br>
                     Igando,<br>
@@ -37,33 +47,32 @@
             </div>
             <!-- in means(invoice)-->
             <div class="in-details">
-                <h3 class="in-head">INVOICE</h3>
                 <table>
                     <tr>
-                        <td>Invoice No</td>
-                        <td>:</td>
-                        <td><b>#00000</b></td>
+                        <td class="hd-font"><b>Invoice N0</b></td>
+                        <td> </td>
+                        <td><b>#04369</b></td>
                     </tr>
                     <tr>
-                        <td>Due Date</td>
-                        <td>:</td>
-                        <td><b>20 March 2023</b></td>
+                        <td class="hd-font"><b>Invoice Date</b></td>
+                        <td> </td>
+                        <td><b>11/02/2023</b></td>
                     </tr>
                     <tr>
-                        <td>Bill To</td>
-                        <td>:</td>
-                        <td><b>01234</b></td>
+                        <td class="hd-font"><b>Due Date</b></td>
+                        <td> </td>
+                        <td><b>20/03/2023</b></td>
                     </tr>
             </table>
             </div>
         </div>
 
         <div class="product-container">
-            <table class="item-table" border="1" cellpadding="0">
-                <tr>
+            <table class="item-table" border="1" cellspacing="0">
+                <tr class="item-table-hd">
                     <th>SL. NO.</th>
                     <th>Item</th>
-                    <th>Price</th>
+                    <th> Unit Price</th>
                     <th>Qty</th>
                     <th>Disscount</th>
                     <th>Total</th>
@@ -109,16 +118,8 @@
         </div>
 
         <div class="invoice-footer">
-            <div class="note">
-                <h4>Thank You!</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Illum, excepturin Lorem, ipsum dolor sit amet consectetur
-                      adipisicing elit. Eum, quisquam..
-                </p>
-            </div>
             <div class="invoice-footer-amount">
-                <table class="amount-table" border="1" cellspacing="0">
+                <table class="amount-table" cellspacing="0">
                     <tr>
                         <td>Tax Amount</td>
                         <td><b>40000</b></td>
@@ -133,6 +134,14 @@
                     </tr>
             </table>
             </div>
+        </div>
+        <div>
+            <hr class="footer-divider">
+            <h4 class="footer-note hd-font">Terms & Conditions</h4>
+            <h4 class="footer-note">Payment is due within 15 days</h4>
+            <p><b>Name of Bank: Access Bank<br>
+                Account Number: 0242343512<br>
+                Account Name: Haruna Tawakalitu </b></p>
         </div>
     </div>
     
